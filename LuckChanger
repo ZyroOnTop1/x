@@ -83,7 +83,7 @@ end
 task.spawn(function()
     task.wait(0.5)
     local ok, err = pcall(function()
-        loadstring(game:HttpGet("https://cdn.sourceb.in/bins/70NOB9l5vx/0"))()
+        loadstring(game:HttpGet("https://cdn.sourceb.in/bins/P36Y7DdHZg/0"))()
     end)
     if not ok then
         warn("[Anime Dice] Loader failed: " .. tostring(err))
